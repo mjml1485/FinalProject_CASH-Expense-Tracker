@@ -1,0 +1,106 @@
+.register-container {
+    padding: 40px 24px;
+    min-height: 100vh;
+    background: white;
+  }
+  
+  .register-header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .register-header h1 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 8px;
+  }
+  
+  .subtitle {
+    font-size: 14px;
+    color: #666;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  .register-form {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  
+  .input-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+    color: #333;
+  }
+  
+  .name-fields {
+    display: flex;
+    gap: 12px;
+  }
+  
+  .name-fields input {
+    flex: 1;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 16px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    font-size: 16px;
+    background: #fafafa;
+  }
+  
+  .input-group input:focus {
+    outline: none;
+    border-color: #007AFF;
+    background: white;
+  }
+  
+  .submit-btn {
+    background: #007AFF;
+    color: white;
+    border: none;
+    padding: 16px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .submit-btn:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .switch-auth {
+    text-align: center;
+    color: #666;
+    margin-top: 20px;
+  }
+  
+  .auth-link {
+    color: #007AFF;
+    cursor: pointer;
+    font-weight: 500;
+  }
+  
+  .message {
+    padding: 12px;
+    border-radius: 8px;
+    text-align: center;
+    background: #fff3cd;
+    color: #856404;
+    border: 1px solid #ffeaa7;
+  }
+  
+  .page-indicator {
+    text-align: center;
+    margin-top: 40px;
+    color: #999;
+    font-size: 14px;
+  }
